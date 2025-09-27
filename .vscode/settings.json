@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine",
+    "files.associations": {
+        "system_error": "cpp"
+    }
+}

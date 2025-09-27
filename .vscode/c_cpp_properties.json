@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/**",
+                "${workspaceFolder}/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/BookShelfParser"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,195 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libDarjeeling_BookShelfParser.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Darjeeling_BookShelfParser_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/DO"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/IPojo"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/BookShelfParser"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "Darjeeling_BookShelfParser::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Darjeeling_BookShelfParser",
+	"nameOnDisk" : "libDarjeeling_BookShelfParser.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/BookShelfParser/BookshelfParserStarter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/BookShelfParser/BookshelfParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/IPojo/IModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/DO/SiteRowDO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/Module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/PlaceData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/Pin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/Net.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Pojo/SiteRow.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

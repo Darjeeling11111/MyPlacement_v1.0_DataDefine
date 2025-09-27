@@ -1,0 +1,5 @@
+/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles/Darjeeling_BookShelfParser.dir
+/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles/Darjeeling_placement.dir
+/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles/Darjeeling_test.dir
+/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles/edit_cache.dir
+/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles/rebuild_cache.dir
