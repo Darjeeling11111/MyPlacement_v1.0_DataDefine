@@ -9,5 +9,6 @@
 class PlaceData : public IPlaceData{
     public:
         PlaceData(): IPlaceData() {};
-        void Print()const override;         
+        void Print()const override;  
+        bool updateFromPLDO(std::unique_ptr<PlDO> pldo) override;       
 };

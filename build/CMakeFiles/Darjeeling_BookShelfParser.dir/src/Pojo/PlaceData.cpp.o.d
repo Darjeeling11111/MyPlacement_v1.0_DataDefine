@@ -226,4 +226,6 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o: \
  /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum/PinDirection.h \
  /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/IPojo/ISiteRow.h \
  /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum/SiteOrient.h \
- /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum/CoreRowOrient.h
+ /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum/CoreRowOrient.h \
+ /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/DO/PlDO.h \
+ /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/Module.h

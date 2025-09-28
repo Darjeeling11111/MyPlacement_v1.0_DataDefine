@@ -12,6 +12,7 @@ class IModule;
 class INet;
 class IPin;
 class ISiteRow;
+class PlDO;
 
 class IPlaceData{
     public:
@@ -120,4 +121,5 @@ class IPlaceData{
                 return false;
             }
         }
+        virtual bool updateFromPLDO(std::unique_ptr<PlDO> pldo) =0;
 };

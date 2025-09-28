@@ -7,6 +7,7 @@
 
 class IPin;
 class INet;
+class PlDO;
 //向前声明
 
 
@@ -118,6 +119,7 @@ class IModule
       {
           Init(idx,name,width,height);
       }
+      
     public:
       // getter and setter functions
       int getIdx() const { return idx; }
@@ -190,6 +192,7 @@ class IModule
       virtual void PrintIndex()const;
       virtual void PrintPins()const;
       virtual void PrintNets()const;
+      virtual bool updateFromPlDO(std::unique_ptr<PlDO> pldo)=0;
 };
 
 

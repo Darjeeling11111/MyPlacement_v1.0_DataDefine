@@ -1,6 +1,7 @@
 //#include "../../Include/MyPlacement_DataDefine/BookShelfParser/BookshelfParser.h"
 #include "BookshelfParser.h"
 #include "SiteRowDO.h"
+#include "PlDO.h"
 
 bool BookshelfParser::parse(){
     if(!starter->hasAllRequiredFiles()){
@@ -12,9 +13,9 @@ bool BookshelfParser::parse(){
     if(!parseNets()){
         return false;
     }
-    // if(!parsePl()){
-    //     return false;
-    // }
+    if(!parsePl()){
+        return false;
+    }
     if(!parseScl()){
         return false;
     }
@@ -176,8 +177,29 @@ bool BookshelfParser::parseNets(){
 
 
 bool BookshelfParser::parsePl(){
-
-
+    std::string path = starter->getRequiredFiles().at(".pl");
+    std::ifstream plFile(path);
+    if(!plFile.is_open()){
+        return false;
+    }
+    std::string line;
+    std::string word;
+    std::getline(plFile,line);//skip the first line
+    while(std::getline(plFile,line)){
+        if(line.empty() || line[0] == '#'){
+            continue;
+        }
+        if(line.back() == '\r'){
+            line.pop_back();
+        }
+        bool isFixed;
+        auto plDO = PlDO::createPlDOFormString(line,isFixed);
+        if(isFixed == false){
+            continue;
+        }
+        placeData->updateFromPLDO(std::move(plDO));
+    }
+    plFile.close();
     return true;
 }
 

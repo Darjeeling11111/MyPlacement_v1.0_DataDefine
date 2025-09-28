@@ -125,10 +125,24 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/SiteRowDO.cpp -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.s
 
+CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
+CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp
+CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp
+
+CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp > CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.i
+
+CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.s
+
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Module.cpp
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Module.cpp
 
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.s: cmake_force
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/PlaceData.cpp
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/PlaceData.cpp
 
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.s: cmake_force
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Pin.cpp
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Pin.cpp
 
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.s: cmake_force
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Net.cpp
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Net.cpp
 
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Net.cpp.s: cmake_force
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/flags.make
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o: /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/SiteRow.cpp
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o: CMakeFiles/Darjeeling_BookShelfParser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o -MF CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o.d -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/SiteRow.cpp
 
 CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.i: cmake_force
@@ -201,6 +215,7 @@ Darjeeling_BookShelfParser_OBJECTS = \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParser.cpp.o" \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/IPojo/IModule.cpp.o" \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.o" \
+"CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o" \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o" \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o" \
 "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o" \
@@ -214,6 +229,7 @@ libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParser.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/IPojo/IModule.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.o
+libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/PlaceData.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Pin.cpp.o
@@ -221,7 +237,7 @@ libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/SiteRow.cpp.o
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/build.make
 libDarjeeling_BookShelfParser.so: CMakeFiles/Darjeeling_BookShelfParser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libDarjeeling_BookShelfParser.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/MyPlacement_v1.0_DataDefine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libDarjeeling_BookShelfParser.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Darjeeling_BookShelfParser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

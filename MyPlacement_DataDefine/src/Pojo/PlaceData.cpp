@@ -1,4 +1,6 @@
 #include "PlaceData.h"
+#include "PlDO.h"
+#include "Module.h"
 
 
 void PlaceData::Print()const{
@@ -17,3 +19,14 @@ void PlaceData::Print()const{
     //     net->Print();
     // }
 }   
+
+
+bool PlaceData::updateFromPLDO(std::unique_ptr<PlDO> pldo){
+    std::string pldoName = pldo->getName();
+    if(moduleMap.find(pldoName) == moduleMap.end()){
+        std::cout<<"Module not found"<<std::endl;
+        return false;//没找到
+    }
+    moduleMap[pldoName]->updateFromPlDO(std::move(pldo));
+    return true;
+}

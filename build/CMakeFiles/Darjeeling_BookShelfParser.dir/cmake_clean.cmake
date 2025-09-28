@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParser.cpp.o.d"
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParserStarter.cpp.o"
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParserStarter.cpp.o.d"
+  "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o"
+  "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o.d"
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.o"
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/SiteRowDO.cpp.o.d"
   "CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/IPojo/IModule.cpp.o"

@@ -12,6 +12,7 @@ add_library(${bookshelf_lib_name} SHARED
     ${CMAKE_CURRENT_SOURCE_DIR}/src/BookShelfParser/BookshelfParser.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/IPojo/IModule.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/DO/SiteRowDO.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/DO/PlDO.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/Module.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/PlaceData.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Pojo/Pin.cpp

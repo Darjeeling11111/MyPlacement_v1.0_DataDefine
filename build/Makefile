@@ -227,6 +227,30 @@ src/BookShelfParser/BookshelfParserStarter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Darjeeling_BookShelfParser.dir/build.make CMakeFiles/Darjeeling_BookShelfParser.dir/src/BookShelfParser/BookshelfParserStarter.cpp.s
 .PHONY : src/BookShelfParser/BookshelfParserStarter.cpp.s
 
+src/Pojo/DO/PlDO.o: src/Pojo/DO/PlDO.cpp.o
+.PHONY : src/Pojo/DO/PlDO.o
+
+# target to build an object file
+src/Pojo/DO/PlDO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Darjeeling_BookShelfParser.dir/build.make CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o
+.PHONY : src/Pojo/DO/PlDO.cpp.o
+
+src/Pojo/DO/PlDO.i: src/Pojo/DO/PlDO.cpp.i
+.PHONY : src/Pojo/DO/PlDO.i
+
+# target to preprocess a source file
+src/Pojo/DO/PlDO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Darjeeling_BookShelfParser.dir/build.make CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.i
+.PHONY : src/Pojo/DO/PlDO.cpp.i
+
+src/Pojo/DO/PlDO.s: src/Pojo/DO/PlDO.cpp.s
+.PHONY : src/Pojo/DO/PlDO.s
+
+# target to generate assembly for a file
+src/Pojo/DO/PlDO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Darjeeling_BookShelfParser.dir/build.make CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.s
+.PHONY : src/Pojo/DO/PlDO.cpp.s
+
 src/Pojo/DO/SiteRowDO.o: src/Pojo/DO/SiteRowDO.cpp.o
 .PHONY : src/Pojo/DO/SiteRowDO.o
 
@@ -439,6 +463,9 @@ help:
 	@echo "... src/BookShelfParser/BookshelfParserStarter.o"
 	@echo "... src/BookShelfParser/BookshelfParserStarter.i"
 	@echo "... src/BookShelfParser/BookshelfParserStarter.s"
+	@echo "... src/Pojo/DO/PlDO.o"
+	@echo "... src/Pojo/DO/PlDO.i"
+	@echo "... src/Pojo/DO/PlDO.s"
 	@echo "... src/Pojo/DO/SiteRowDO.o"
 	@echo "... src/Pojo/DO/SiteRowDO.i"
 	@echo "... src/Pojo/DO/SiteRowDO.s"

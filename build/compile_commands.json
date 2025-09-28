@@ -21,6 +21,11 @@
 },
 {
   "directory": "/opt/MyPlacement_v1.0_DataDefine/build",
+  "command": "/usr/bin/c++ -DDarjeeling_BookShelfParser_EXPORTS -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Common -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/DO -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/IPojo -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/BookShelfParser -g -fPIC -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/DO/PlDO.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp",
+  "file": "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/DO/PlDO.cpp"
+},
+{
+  "directory": "/opt/MyPlacement_v1.0_DataDefine/build",
   "command": "/usr/bin/c++ -DDarjeeling_BookShelfParser_EXPORTS -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Common -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Enum -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/DO -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/Pojo/IPojo -I/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/Include/MyPlacement_DataDefine/BookShelfParser -g -fPIC -o CMakeFiles/Darjeeling_BookShelfParser.dir/src/Pojo/Module.cpp.o -c /opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Module.cpp",
   "file": "/opt/MyPlacement_v1.0_DataDefine/MyPlacement_DataDefine/src/Pojo/Module.cpp"
 },
